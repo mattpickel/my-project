@@ -39,5 +39,5 @@ jobs:
         with:
           docker-user: ${{ secrets.DOCKER_USERNAME }}
           image-name: mattpickel/test-project
-          dockerhub-token: ${{ secrets.DOCKER_PASSWORD }}
+          dockerhub-token: ${{ secrets.DOCKER_TOKEN }}
           version: "0.0.15"
